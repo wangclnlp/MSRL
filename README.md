@@ -80,7 +80,7 @@ This stage contains only textual input. The model compares two candidate respons
 {
   "stage": "text_only_rl",
   "prompt": "Which response better answers the user's request?",
-  "instruction": "Explain why regular exercise is important for mental health.",
+  "instruction": "Explain why regular exercise is important for mental health......",
   "response_a": "Regular exercise can reduce stress, improve mood, and support better sleep.",
   "response_b": "Exercise is good.",
   "chosen": "A"
