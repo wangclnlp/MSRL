@@ -373,7 +373,19 @@ The evaluation script calls `swift eval` with the `Native` backend and is suitab
 For benchmark-specific evaluation on datasets such as `VL-RewardBench`, `Multimodal RewardBench`, `GenAI-Bench`, `ShareGPTVideo`, or `VideoGen-RewardBench`, the recommended practice is to prepare benchmark-specific adapters that convert each benchmark into the `ms-swift` evaluation format and then invoke the same evaluation entry point.
 
 
-### 9. Citation
+### 9. Acknowledgments
+
+We use [ms-swift](https://github.com/modelscope/ms-swift) as our codebase🌹🌹🌹.
+
+We thank the following papers👍:
+```
+[1] Wang, Yibin, et al. "Unified reward model for multimodal understanding and generation." arXiv preprint arXiv:2503.05236 (2025).
+[2] Wang, Chenglong, et al. "Rovrm: A robust visual reward model optimized via auxiliary textual preference data." Proceedings of the AAAI Conference on Artificial Intelligence. Vol. 39. No. 24. 2025.
+[3] Chen, Xiusi, et al. "Rm-r1: Reward modeling as reasoning." arXiv preprint arXiv:2505.02387 (2025).
+```
+
+
+### 10. Citation
 If you find our work helpful, please kindly cite us as:
 ```
 TODO:
