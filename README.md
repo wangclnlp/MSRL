@@ -70,6 +70,11 @@ Stages 2 and 3 cover four task categories:
 
 ## 4. Data Examples for MSRL
 
+> **Important**
+> The examples in this section are README-level illustrations for understanding the MSRL pipeline only. They may **not** be directly usable as input files for training or evaluation scripts.
+> Since this project is built on top of `ms-swift`, the actual dataset files should follow the dataset schema expected by `ms-swift`. Please refer to the official documentation: [Custom Dataset - ms-swift](https://swift.readthedocs.io/en/latest/Customization/Custom-dataset.html).
+> In other words, the JSON examples below are intended to explain the semantics of each stage, while the real runnable data files should be converted into the `ms-swift` format required by the corresponding script and reward plugin.
+
 Below we provide README-level examples to illustrate the **data organization used in each stage**. These examples are simplified from the training templates described in the paper and are intended to clarify the overall pipeline.
 
 ### 4.1 Stage 1: Textual Preference Sample
