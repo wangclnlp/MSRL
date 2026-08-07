@@ -393,13 +393,10 @@ We thank the following papers👍:
 ### 10. Citation
 If you find our work helpful, please kindly cite us as:
 ```
-@misc{wang2026msrl,
-      title={MSRL: Scaling Generative Multimodal Reward Modeling via Multi-Stage Reinforcement Learning}, 
-      author={Chenglong Wang and Yifu Huo and Yang Gan and Qiaozhi He and Qi Meng and Bei Li and Yan Wang and Junfu Liu and Tianhua Zhou and Jingbo Zhu and Tong Xiao},
-      year={2026},
-      eprint={2603.25108},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2603.25108}, 
+@article{wang2026msrl,
+  title={Msrl: Scaling generative multimodal reward modeling via multi-stage reinforcement learning},
+  author={Wang, Chenglong and Huo, Yifu and Gan, Yang and He, Qiaozhi and Meng, Qi and Li, Bei and Wang, Yan and Liu, Junfu and Zhou, Tianhua and Zhu, Jingbo and others},
+  journal={arXiv preprint arXiv:2603.25108},
+  year={2026}
 }
 ```
